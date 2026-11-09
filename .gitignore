@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Old Postman screenshots and environments
+**/Postman/Postman_Screenshots/
+**/*postman_environment*.json
+
+# Logs
+*.log
